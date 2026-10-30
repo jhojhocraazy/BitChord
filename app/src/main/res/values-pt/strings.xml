@@ -953,7 +953,7 @@
 
     <string name="selected_account">Conta selecionada</string>
 
-    <string name="shelf_100_on_repeat">100% no repeat</string>
+    <string name="shelf_100_on_repeat">100% em repetição</string>
 
     <string name="shelf_artists_on_the_rise">Artistas em ascensão</string>
 
@@ -1419,7 +1419,7 @@
     <string name="song_info_unavailable">Não disponível</string>
     <string name="song_info_error">Não foi possível carregar algumas informações.</string>
     <string name="song_info_retry">Tentar novamente</string>
-    <string name="no_audio_version">No audio version found for this video</string>
+    <string name="no_audio_version">Nenhuma versão de áudio encontrada para este vídeo</string>
     <string name="no_video_version">No video version found for this song</string>
     <string name="version_switch_in_party">Everyone in Listen Together hears the same version</string>
     <string name="opened_file">Arquivo aberto</string>
