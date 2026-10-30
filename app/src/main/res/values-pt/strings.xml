@@ -199,7 +199,7 @@
     <string name="on_mobile_data">Nos dados móveis</string>
     <string name="in_use">Em uso</string>
     <string name="blocking">Bloqueando</string>
-    <string name="crossfade">Fade cruzado</string>
+    <string name="crossfade">Crossfade</string>
     <string name="crossfade_subtitle">Mescla uma faixa com a próxima</string>
     <string name="automix">Automix [BETA]</string>
     <string name="skip_silence">Pular silêncio</string>
