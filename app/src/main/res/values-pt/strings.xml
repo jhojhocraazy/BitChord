@@ -532,7 +532,7 @@
     <string name="share_my_replay">Compartilhar meu Replay</string>
     <string name="share_your_lyrics">Enviar seu cartão de letra</string>
     <string name="share_your_replay">Compartilhe seu Replay</string>
-    <string name="tap_share_for_picture">Toque em Compartilhar para criar uma imagem</string>
+    <string name="tap_share_for_picture">Toque em Compartilhar para criar uma imagem.</string>
     <string name="top_album">Principal álbum</string>
     <string name="top_artist">Principal artista</string>
     <string name="top_genre">Principal gênero</string>
@@ -640,7 +640,7 @@
         <item quantity="other">%1$d falharam</item>
     </plurals>
     <plurals name="all_songs_downloaded">
-        <item quantity="one">Todas as %1$d música baixada</item>
+        <item quantity="one">%1$d música baixada</item>
         <item quantity="other">Todas as %1$d músicas baixadas</item>
     </plurals>
     <plurals name="hour_count">
