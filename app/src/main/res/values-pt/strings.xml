@@ -214,7 +214,7 @@
     <string name="theme">Tema</string>
     <string name="font_default_subtitle">SF Pro Display · Pesos do Apple Music</string>
     <string name="font_legacy">Clássica</string>
-    <string name="font_legacy_subtitle">SF Pro Display · Pesos originais mais pesados</string>
+    <string name="font_legacy_subtitle">SF Pro Display · Pesos pesados originais</string>
     <string name="font">Fonte</string>
     <string name="font_default">Padrão</string>
     <string name="font_footer">Clássica traz de volta a tipografia mais pesada e compacta que o app usava antes de ser alinhado ao Apple Music.</string>
@@ -868,7 +868,7 @@
     <string name="playlist_sync_ask_title">Músicas novas em %1$s: %2$d</string>
     <string name="playlist_sync_done_title">Adicionadas a %1$s: %2$d</string>
     <string name="sync_downloaded_playlists">Manter playlists atualizadas</string>
-    <string name="sync_downloaded_playlists_subtitle">Verifica duas vezes por dia e baixa as músicas novas das suas playlists baixadas</string>
+    <string name="sync_downloaded_playlists_subtitle">Verifica duas vezes por dia e baixa as músicas recém-adicionadas às suas playlists baixadas</string>
 
     <string name="legacy_mesh_gradient">Gradiente de malha clássico</string>
 
@@ -916,7 +916,7 @@
     <string name="bit_perfect_mode_usb_direct_subtitle">O BitChord controla o próprio DAC, em qualquer versão do Android, e ajusta o volume no DAC. Pede permissão de USB. Pode ficar bem mais alto que a saída normal.</string>
     <string name="usb_allow_fixed_volume_subtitle">Caso contrário, esse DAC toca pela saída normal</string>
     <string name="usb_allow_fixed_volume_confirm_message">O BitChord não consegue ajustar o volume desse tipo de DAC, então ele toca em escala total e só o botão do próprio DAC, se houver, controla o volume. Isso pode ficar perigosamente alto com fones sensíveis.</string>
-    <string name="convert_for_limited_dac">Converter para DACs mais limitados</string>
+    <string name="convert_for_limited_dac">Converter para DACs de especificação inferior</string>
     <string name="convert_for_limited_dac_subtitle">Converte faixas acima do limite do seu DAC para o formato mais alto dele. As faixas podem demorar mais para começar e não serão bit-perfect em relação ao original.</string>
     <string name="bit_perfect_mode_usb_android">DAC USB</string>
     <string name="bit_perfect_mode_usb_android_subtitle">O Android 14 abre o DAC na taxa e na profundidade de bits de cada faixa, sem mixagem nem reamostragem.</string>
