@@ -110,6 +110,20 @@ jobs:
           $lines.Add("> Revise as sugestões e aplique apenas as chaves listadas, seguindo o AGENTS.md local. Este PR não altera os catálogos automaticamente.")
           $lines -join "`n" | Set-Content -Path ".github\i18n-delta.md" -Encoding utf8
 
+      - name: Enforce incremental-only mode
+        if: steps.delta.outputs.pending != '0'
+        shell: pwsh
+        env:
+          PENDING: ${{ steps.delta.outputs.pending }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $pending = [int]$env:PENDING
+          Write-Output "INCREMENTAL_MODE pending=$pending"
+          if ($pending -gt 100) { throw "Delta acima do limite incremental: $pending" }
+          $dirty = @(git status --porcelain)
+          $catalog = @($dirty | Where-Object { $_ -match 'values-pt|_locales/pt_BR|messages\.json|pt-BR\.json' -and $_ -notmatch 'i18n-delta' })
+          if ($catalog.Count -gt 0) { Write-Output $catalog; throw 'Catalogo completo alterado: modo incremental violado' }
+          Write-Output 'INCREMENTAL_ONLY_OK'
       - name: Commit report and open pull request
         if: steps.delta.outputs.pending != '0'
         shell: pwsh
